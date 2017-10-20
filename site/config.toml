@@ -1,0 +1,181 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "jiminqkr 스오스"
+theme = "hugo-strata-theme"
+disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = "UA-107562055-1"
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+  # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+  name = "Wooji Jung"
+  description = "BTS Fanboy"
+
+  # Format dates with Go's time formatting
+  date_format = "2006-01-02"
+
+  # Add custom assets with their paths relative to the static folder
+  custom_js   = []
+  custom_css  = []
+
+
+  [params.sidebar]
+    # Replace the avatar with a picture of your own under static/images
+    avatar = "bts_logo.png"
+    favicon = "favicon.ico"
+    # Use Markdown to format the string. This works nearly all over the theme
+    bio = """All for **[@BTS_twt](https://twitter.com/@BTS_twt)** <br /> - fanboy"""
+    # The icons will be shown if you enter your username
+    twitter = "jiminqkr"
+    github = "jiminqkr"
+    dribbble = ""
+    facebook = ""
+    googleplus = ""
+    flickr = ""
+    linkedin = ""
+
+    copyright = [
+      "&copy; John Doe",
+      "Design: [HTML5 UP](//html5up.net)",
+      "Demo Images: [Unsplash](//unsplash.com/)"
+    ]
+
+  [blackfriday]
+    hrefTargetBlank = true
+
+  [params.about]
+    hide  = false
+    title = "Beyond The Scene"
+    content = "International K-POP Sensation Sunshine Rainbow Traditional Transfer USB Hub Shrimp "
+
+  [params.musicvideo]
+    hide  = false
+    title = "BTS (방탄소년단) LOVE YOURSELF 承 Her 'Serendipity"
+    #src = "https://www.youtube.com/watch?v=MBdVXkSdhwU"
+
+  [params.portfolio]
+    hide  = false
+    title = "Bulletproof Boy Scouts"
+
+    [[params.portfolio.jimin]]
+      image = "bts/mochi2.jpg"
+      thumb = "thumbs/mochi2.jpg"
+      title = "Happy Birthday Park Jimin"
+      description = "October 13, 2017"
+
+    # The images and thumbnails are stored under static/images
+    # Create and change subfolders as you like
+    [[params.portfolio.gallery]]
+      image = "bts/rm.jpg"
+      thumb = "thumbs/rm.jpg"
+      title = "Kim Namjoon - RM"
+      description = "September 12, 1994 - Ilsan, South Korea"
+
+    [[params.portfolio.gallery]]
+      image = "bts/jin.jpg"
+      thumb = "thumbs/jin.jpg"
+      title = "Kim Seokjin - Jin "
+      description = "December 4, 1992 - Gwacheon, South Korea."
+
+    [[params.portfolio.gallery]]
+      image = "bts/suga.jpg"
+      thumb = "thumbs/suga.jpg"
+      title = "Min Yoon-gi - Suga"
+      description = "March 9, 1993 - Daegu, South Korea"
+
+    [[params.portfolio.gallery]]
+      image = "bts/jhope.jpg"
+      thumb = "thumbs/jhope.jpg"
+      title = "Jung Ho-seok - J-Hope"
+      description = "February 18, 1994 - Gwangju, South Korea"
+
+    [[params.portfolio.gallery]]
+      image = "bts/jimin.jpg"
+      thumb = "thumbs/jimin.jpg"
+      title = "Park Ji-min - Jimin"
+      description = " October 13, 1995 - Busan, South Korea"
+
+    [[params.portfolio.gallery]]
+      image = "bts/v.jpg"
+      thumb = "thumbs/v.jpg"
+      title = "Kim Tae-hyung - V"
+      description = "December 30, 1995 - Daegu, South Korea"
+
+     [[params.portfolio.gallery]]
+      image = "bts/jungkook.jpg"
+      thumb = "thumbs/jungkook.jpg"
+      title = " Jeon Jeong-guk - Jungkook"
+      description = "September 1, 1997 - Busan, South Korea"
+
+     [[params.portfolio.gallery]]
+      image = "bts/bts.jpg"
+      thumb = "thumbs/bts.jpg"
+      title = "BTS"
+      description = "June 13, 2013"
+
+      [[params.portfolio.gallery]]
+      image = "bts/wings.jpg"
+      thumb = "thumbs/wings.jpg"
+      title = "Wings"
+      description = "October 10, 2016 "
+
+      [[params.portfolio.gallery]]
+      image = "bts/her.jpg"
+      thumb = "thumbs/her.jpg"
+      title = "Love Yourself: 承 'Her'"
+      description = "September 18, 2017"
+
+  [params.recentposts]
+    hide  = false
+    title = "BTS Discography"
+
+  [params.contact]
+    hide  = false
+    title = "Get In Touch"
+    content = "Follow BTS on Twitter, Facebook, Youtube"
+
+    address = [
+      "Manila, Philippines"
+    ]
+    phone = "+63 977-626-1764"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+      #
+      # What you need to do for the setup?
+      #
+      # - set your email address under 'email' below
+      # - upload the generated site to your server
+      # - send a dummy email yourself to confirm your account
+      # - click the confirm link in the email from www.formspree.io
+      # - you're done. Happy mailing!
+    email = "jujujujinjung@daum.net"
+
+    [params.contact.form]
+      # Set custom strings for the form if your native
+      # language isn't English
+      name = "Name"
+      email = "Email"
+      message = "Message"
+      submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+  name = "스오스"
+  url  = "/"
+  weight = 0
+
+#[[menu.main]]
+#  name = "About"
+#  url  = "about"
+#  weight = 5
+
+#[[menu.main]]
+#  name = "Blog"
+#  url  = "post/"
+#  weight = 10
